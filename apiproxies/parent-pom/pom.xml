@@ -110,7 +110,7 @@
 			<id>srikgd-test</id> <!-- the command to use :: mvn install -Plab -->
 			<properties>
 				<apigee.profile>test</apigee.profile> <!-- config.json should have this property -->
-				<apigee.hosturl>https://enterprise.apigee.com</apigee.hosturl>
+				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> 
 				<apigee.org>srikgd</apigee.org>
 				<apigee.username>${username}</apigee.username>
