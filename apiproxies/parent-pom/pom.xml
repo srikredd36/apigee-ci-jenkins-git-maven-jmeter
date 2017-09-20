@@ -107,12 +107,12 @@
 	<!-- This is where you add the environment specific properties under various profile names -->		
 	<profiles>
 		<profile>
-			<id>testmyapi-test</id> <!-- the command to use :: mvn install -Plab -->
+			<id>srikgd-test</id> <!-- the command to use :: mvn install -Plab -->
 			<properties>
 				<apigee.profile>test</apigee.profile> <!-- config.json should have this property -->
-				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
+				<apigee.hosturl>https://enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> 
-				<apigee.org>testmyapi</apigee.org>
+				<apigee.org>srikgd</apigee.org>
 				<apigee.username>${username}</apigee.username>
 				<apigee.env>test</apigee.env>
 				<apigee.password>${password}</apigee.password>
